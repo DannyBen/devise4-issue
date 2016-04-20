@@ -63,11 +63,14 @@ cucumber features/welcome.feature:3 # Scenario: Devise sign in
 - `$ rake db:migrate`
 
 
-2: Add Capybara / Cucumber
+2: Add Cucumber / Capybara
 
-- Follow [cucumber setup] instructions
+- Add `gem 'cucumber-rails', :require => false` to `Gemfile`
+- Add `gem 'database_cleaner'` to `Gemfile`
+- (instructions taken from [cucumber setup] instructions)
 - Add the file `features/step_definitions/login.rb`
 - Add the file `features/welcome.feature`
+- (Capybara is bundled with cucumber-rails)
 
 [cucumber setup]: https://github.com/cucumber/cucumber-rails
 [issue]: https://github.com/plataformatec/devise/issues/4048
