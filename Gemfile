@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 gem 'rails', '4.2.6'
 gem 'sqlite3'
 gem 'sass-rails', '~> 5.0'
@@ -14,6 +13,8 @@ gem 'devise'
 
 group :development, :test do
   gem 'byebug'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
 end
 
 group :development do
