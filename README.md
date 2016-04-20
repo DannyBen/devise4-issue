@@ -1,5 +1,8 @@
 # Devise 4 Debug
 
+This repository was created to demonstrate this [issue] with Devise 4.0 
+and Capybara.
+
 
 ## How to Reproduce Issue
 
@@ -67,4 +70,4 @@ cucumber features/welcome.feature:3 # Scenario: Devise sign in
 - Add the file `features/welcome.feature`
 
 [cucumber setup]: https://github.com/cucumber/cucumber-rails
-
+[issue]: https://github.com/plataformatec/devise/issues/4048
